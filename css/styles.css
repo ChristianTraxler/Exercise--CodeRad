@@ -1,3 +1,5 @@
+/* Start of Nav bar */
+
 .navbar {
   position: fixed;
   top: 0;
@@ -75,6 +77,10 @@
   color: var(--white);
 }
 
+/* End of Nav bar */
+
+/* Start of Meeting Your Needs */
+
 .why-me {
   padding: var(--size-150) 0;
 }
@@ -107,9 +113,14 @@
   margin-top: 0.5rem;
 }
 
+/* End of Meeting Your Needs */
+
+/* Start of Service Grid */
+
 .bg-contrast {
   background-color: var(--contrast);
   padding: var(--size-150) 0;
+  margin: 0 auto;
 }
 
 .service-grid {
@@ -142,6 +153,10 @@ span.bg-color-4 { background-image: linear-gradient(90deg, #F2A7CA 0%, #C289F4 1
 span.bg-color-5 { background-image: linear-gradient(90deg, #A1ECFF 0%, #7DBCFF 100%); }
 span.bg-color-6 { background-image: linear-gradient(90deg, #FFC187 0%, #FE93A7 100%); }
 
+/* End of Service Grid */
+
+/* Start of Tell Our Story */
+
 .video-demo { text-align: center; }
 .video-demo .block-text { padding-right: 0; }
 
@@ -172,3 +187,18 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #FFC187 0%, #FE93A7 1
   max-width: 600px;
   border-radius: 8px;
 }
+
+/* End of Tell Our Story */
+
+/* Start of Choose The Right Package */
+
+.block-text.pricing-header { text-align: center;}
+
+
+
+
+
+
+
+
+/* End of Choose The Right Package */
