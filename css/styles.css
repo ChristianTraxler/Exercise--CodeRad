@@ -252,6 +252,8 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #FFC187 0%, #FE93A7 1
 
 /* Start of Testimonials */
 
+.testimonials { margin: var(--size-100) 0; }
+
 .testimonial-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -263,6 +265,7 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #FFC187 0%, #FE93A7 1
 .testimonials .block-text {
   padding-right: 0;
   text-align: center;
+  margin: var(--size-100) 0;
 }
 
 .testimonial-card {
@@ -274,6 +277,12 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #FFC187 0%, #FE93A7 1
 .testimonial-card.lg {
   grid-row: 1 / 3;
   grid-column: 1 / 2;
+}
+
+.testimonial-card .quote {
+  width: 4.375rem;
+  float: right;
+  margin-top: var(--size-16);
 }
 
 .testimonial-card.md .bottom p { font-size: var(--size-14);}
@@ -305,4 +314,39 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #FFC187 0%, #FE93A7 1
   line-height: 1.6;
 }
 
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--size-50);
+  padding: var(--size-100) 0;
+}
+
 /* End of Testimonials */
+
+/* Start of Footer */
+
+footer {
+  background-color: #2D2C40;
+}
+
+.row {
+  display: flex;
+}
+
+.icons {
+  width: 20px;
+  height: 30px;
+}
+
+.social-media {
+  width: 20px;
+  height: 30px;
+  margin: 13px;
+}
+
+h5, ul {
+  color: var(--white);
+}
+
+
+/* End of Footer */
