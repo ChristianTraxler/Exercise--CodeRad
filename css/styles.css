@@ -325,34 +325,50 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #FFC187 0%, #FE93A7 1
 
 /* Start of Footer */
 
+footer.bg-footer { background-color: var(--footer); }
 
+footer .footer-bottom { background-color: var(--footer-base); }
 
-.footer-top {
-  background-color: #2D2C40;
-  width: 100%;
+footer .footer-top {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--size-50);
+  padding: var(--size-100) 0;
 }
 
-.social-icons .row {
-  display: flex;
+footer .footer-col { justify-self: center; }
+
+.footer-top h5 {
+  color: var(--white);
+  font-weight: 500;
+  margin-bottom: var(--size-16);
 }
 
-.icons {
-  width: 20px;
-  height: 30px;
+.contact-info li {
+  color: var(--white);
+  margin-bottom: var(--size-10);
 }
 
-.social-media {
+.contact-info li i {
+  padding-right: var(--size-10);
+}
+
+.social-icons ul li {
+  display: inline-block;
   width: 20px;
   height: 30px;
   margin: 13px;
 }
 
-h5 {
-  color: var(--white);
+.icons {
+  width: 30px;
+  height: 30px;
+  padding-right: var(--size-10);
 }
 
-.footer-bottom {
-  background-color: #28273B;
-}
+
+
+
+
 
 /* End of Footer */
