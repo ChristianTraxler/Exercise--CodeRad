@@ -107,10 +107,15 @@ img {
   box-shadow: 0 10px 20px rgb(255 255 255 / 35%)
 }
 
+@media (min-width: 768px) {
+  .pricing-table, .testimonial-grid, .footer-bottom-wrapper { max-width: 720px; }
+}
+
+@media (min-width: 992px) {
+  footer .container {max-width: 960px;}
+}
+
 @media (min-width: 1200px) {
   .container { max-width: 1140px; }
 }
 
-@media (min-width: 768px) {
-  .pricing-table, .testimonial-grid { max-width: 720px; }
-}
