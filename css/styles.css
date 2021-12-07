@@ -405,7 +405,13 @@ footer .footer-col { justify-self: center; }
 
 }
 
+.copyright { margin-top: 6px; }
+
 .copyright p { color: var(--font-color-light); }
+
+.footer-bottom-links {
+  margin-top: var(--size-10);
+}
 
 .footer-bottom-links ul li {
   display: inline-block;
